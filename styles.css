@@ -1,0 +1,444 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      text-decoration: none;
+}
+
+
+
+
+.formContainer {
+      width: 23rem;
+      height: auto;
+      padding: 1.2rem 1.5rem;
+      margin: 0 auto;
+      background-color: blue;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);;
+      border-radius: 5rem 2rem;
+      border: solid 1px solid blue;
+      
+}
+
+
+
+.login {
+      font-size: 2.5rem;
+      color: white;
+      text-align: center;
+      font-family: sans-serif;
+}
+
+.inputContainer {
+      margin: 1rem;
+}
+
+.inputUsername {
+      width: 100%;
+      border: none;
+      border-bottom: 2px solid blue;
+      padding: .5rem;
+}
+
+.nameAndIconContainer {
+      display: flex;
+      align-items: center;
+}
+
+.iconContainer {
+      padding: 0 .1rem;
+      margin: 0;
+}
+
+.icon {
+      font-size: 1.4rem;
+      display: inline-block;
+}
+.naming {
+      margin: .3rem;
+      font-family: sans-serif;
+      font-size: 1rem;
+      display: inline-block;
+      color: white;
+}
+
+.subcontainer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      align-items: center;
+}
+
+.checkNText {
+      display: flex;
+      align-items: center;
+      gap: .1rem;
+}
+
+.checkNtextInput, .checkNtextLetter {
+      display: inline-block;
+      padding: .5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      color: black;
+}
+
+.buttonContainer {
+      position: relative;
+      margin: 2.5rem 0;
+}
+
+.button {
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: .3rem 6.5rem;
+      background-color: rgb(255, 51, 51);
+      color: white;
+      border: none;
+      border-radius: 2rem 3.5rem;
+      font-weight: bold;
+      font-family: sans-serif;
+      font-size: 1.5rem ;
+      cursor: pointer;
+
+}
+
+.linkContainer2 {
+      width: 100%;
+      margin-top: 6rem;
+      text-align: center;
+}
+
+.linkContainer2 p {
+      color: white;
+}
+
+.links {
+      text-decoration: none;
+      display: block;
+      padding: .5rem;
+}
+
+
+
+/* activity css */
+
+
+
+main {
+      padding-top: 1rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 3rem;
+
+}
+
+h1 {
+      text-align: center;
+      margin-left: 7rem;
+}
+
+table {
+      width: 80%;
+      margin: 0 auto;
+      border: .1px solid #ccccccc6;
+      border-radius: 1rem;
+      
+}
+table, th, td {
+      border-collapse: collapse;
+      margin: 1rem;
+      
+    }
+
+    th, td {
+      padding: .5rem;
+      text-align: center;
+    }
+
+    .green {
+      padding: .5rem;
+      color: green;
+      
+      margin: .3rem 0;
+    }
+
+    .red {
+      padding: .5rem;
+      color: red;
+    } 
+
+
+    .footer {
+      text-align: center;
+    }
+
+    .one, .two, .three, .four {
+      background-color: #ccc;
+    }
+
+
+
+    /* account css */
+
+    .accountTable table {
+      margin: 0 auto;
+    }
+
+    table {
+      width: 90%;
+      margin: 0 auto;
+      
+}
+.tb {
+      text-align: center;
+      font-weight: bold;
+      margin-top: 3rem;
+}
+
+.accountHeading2 {
+      margin: 3rem 7rem;
+}
+
+.accountTable2 {
+      margin-bottom: 3rem;
+}
+
+table, th, td {
+      border-collapse: collapse;
+      margin: 1rem;
+      
+    }
+
+    th, td {
+      padding: .5rem;
+      text-align: center;
+    }
+
+    .td {
+      color: purple;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .gray1 {
+      background-color: #ccc;
+    }
+
+    .n {
+      color: red;
+    }
+
+    
+    /* transfer css */
+
+.transferTableHolder table {
+      margin: 0 auto;
+}
+
+
+h1 {
+      text-align: center;
+      margin: 2rem;
+}
+
+
+table {
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
+}
+table, th, td {
+      border: 1px solid black;
+    }
+
+    th, td {
+      padding: .5rem;
+    }
+
+
+    .btnContainer {
+      width: 90%;
+      text-align: right;
+      margin-top: 2rem;
+
+    }
+
+    .btnContainer button {
+      display: inline-block;
+      background-color: blue;;
+      padding: .5rem 2rem;;
+      color: white;
+      
+      border-radius: .5rem 1rem;;
+      border: none;
+    }
+
+    /* Home css */
+
+  
+
+.container1 {
+      display: flex;
+      justify-content: space-between;
+      padding: .5rem 6rem;
+      
+}
+
+.imageNText{
+      display: flex;
+      align-items: center;
+}
+
+.ImgContainer1 {
+      position: relative;
+      width: 10rem;
+      height: 2.5rem;
+}
+
+.img1 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: block;
+      cursor: pointer;
+}
+
+.text1 {
+      font-weight: bold;
+      font-size: 2rem;
+      padding-top: .35rem;
+}
+
+.ImgContainer2 {
+      position: relative;
+      width: 2rem;
+      height: 2rem;
+}
+
+.img2 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: block;
+      border-radius: 100%;
+      cursor: pointer;
+}
+
+.clientNameAndImage {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+}
+
+.text2 {
+      font-size: .8rem;
+}
+
+/* container 2 */
+
+.container2 {
+      background-color: rgb(47, 47, 255);
+      padding: .5rem 6.5rem;
+      
+      
+}
+
+.linkage {
+      color: white;
+      font-size: .8rem;
+      display: inline-block;
+}
+
+.linkContainer {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+}
+
+.container2 .linkage1 {
+      border-bottom: .2px solid white;
+}
+
+
+/* main */
+.homeHeroHolder {
+      margin-top: -2rem;
+}
+
+.hero {
+      background-image: url("/hero5.webp");
+      width: 100%;
+      height: 60vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+
+}
+
+.hero h1 {
+      font-family: fantasy;
+      padding: 5rem 6rem;
+      width:50%;
+      line-height: 3rem;
+      color: rgb(35, 35, 35);
+}
+
+.homeh2 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: rgb(35, 35, 35);
+      margin: 3rem 6rem;
+}
+
+table, th, td {
+      border-collapse: collapse;
+      margin: 1rem;
+      
+    }
+
+    th, td {
+      padding: .5rem;
+      text-align: center;
+      border: 1px solid gray;;
+    }
+
+    .tbCon {
+      width: 100%;;
+    }
+.tbCon table {
+      margin: 0 auto;
+}
+
+.sCon {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 3rem 5rem;
+}
+
+.section1 {
+      width: 35%;
+      height: 30vh;
+      background-image: url("/hero1.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-radius: 1rem;
+}
+
+.sCon p {
+      width: 40%;
+}
